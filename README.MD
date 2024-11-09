@@ -4,3 +4,4 @@ get minecraft status easily
 - [ ] switch to self-hosted api.
 - [ ] add more server infomation. 
 - [ ] support bedrock server.
+https://github.com/EarthlyEric/mcserverchecker
