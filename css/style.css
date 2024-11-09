@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); /* Minecraft風格字體 */
+body {
+    background-image: url('../images/background.png');
+    font-family: 'Press Start 2P', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #f5f5f5;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+form {
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 3px solid #2c2f33; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+form input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #2c2f33;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    font-size: 14px;
+}
+form button {
+    padding: 10px 20px;
+    background: linear-gradient(to bottom, #4CAF50, #2e8b57);
+    color: white;
+    border: 2px solid #2c2f33;
+    border-radius: 4px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+form button:hover {
+    background: linear-gradient(to bottom, #45a049, #26734d);
+}
+#info {
+    padding: 20px;
+    width: 50%;
+    border: 3px solid #2c2f33;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color: #f5f5f5;
+    font-size: 14px;
+    display: none;
+}
+#info div {
+    margin-bottom: 10px;
+}
+#icon img {
+    display: block;
+    margin: 0 auto;
+    width: 64px;
+}
+#loading span {
+    color: #00ff00;
+    display: none;
+}

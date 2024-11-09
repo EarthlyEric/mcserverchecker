@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Server Status Checker</title>
+      <link id="favicon" rel="icon" href="images/defult.jpg" type="image/x-icon">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+   </head>
+   <body>
+      <div class="container">
+         <img src="images/logo.png" width="500px">
+         <h1>Server Status Checker</h1>
+         <p>(Only Java)</p>
+         <form>
+            <input type="text" id="ip" placeholder="IP">
+            <button id="get">Get</button>
+         </form>
+         <div id="info">
+            <div id='loading'>
+               <span>Loading...</span>
+            </div>
+            <div>
+               <img id="icon" src="images/defult.jpg" width="64px">
+            </div>
+            <div id="status"></div>
+            <div id="ip"></div>
+            <div id="version"></div>
+            <div id="players"></div>
+         </div>
+      </div>
+      <script src="js/script.js"></script>
+   </body>
+</html>
